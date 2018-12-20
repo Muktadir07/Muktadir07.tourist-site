@@ -1,0 +1,243 @@
+body{
+  background: url(1F.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.top_page
+{
+	width:1200px;
+	height:200px;
+	background:white;
+	margin:0 auto;
+	padding:1%;
+}
+
+.site_name > h1
+{
+	float:left;
+	margin-top:100px;
+	margin-left:10px;
+	padding:10px 15px;
+	color:rgb(131, 127, 125);
+	font-family:Lily Script One;
+	font-weight:300;
+	
+	font-size: 70px;
+	line-height: 20px;
+}
+
+.register_to_login
+{
+	
+	float: right;
+	width: 247px;
+	max-width:247px;
+	background:rgb(61, 50, 66);
+	margin:15px 10px;
+	border:2px solid #FFE4C4;
+	border-radius:4px;
+	padding: 1px;
+	height: 40px;
+
+	
+}
+.register_to_login ul {
+    list-style-type: none;
+    margin:0 auto;
+	padding:0;
+    overflow: hidden;
+	color:black;
+    
+}
+.register_to_login li {
+    float: left;
+}
+.register_to_login li> a
+{
+	font-size:1.2em;
+	display: block;
+    text-align: center;
+    padding: 8px 30px;
+    text-decoration: none;
+	color:white;
+}
+
+.register_to_login li a:hover {
+    background-color: #FFE4C4;
+	text-decoration:none;
+	color: rgb(61, 50, 66);
+	border:1px solid rgb(61, 50, 66);
+}
+.top_navigation_bar
+{
+	float:right;
+	width:547px;
+	background:LightGrey;
+	margin:50px 15px 10px 70px;
+	
+	
+	
+	
+}
+.top_navigation_bar ul {
+    list-style-type: none;
+    margin:0 auto;
+    padding: 0;
+    overflow: hidden;
+	color:black;
+    
+}
+.top_navigation_bar li {
+    float: left;
+}
+
+.top_navigation_bar li> a
+{
+	font-size:1.2em;
+	display: block;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+	color:black;
+}
+.top_navigation_bar li a:hover {
+    background-color: silver;
+}
+.welcome_page
+{
+	width:40%;
+	height:100px;
+	background:white;
+	margin:0 auto;
+	padding:3%;
+	border:6px double black;
+	margin-top: inherit;
+}
+.welcome_page h2
+{
+	font-family:Great Vibes;
+	font-size:2.8em;
+	text-align:center;
+	margin-top: unset;
+	
+}
+.welcome_page p
+{
+	font-family:Bitter;
+	font-size:1.0em;
+	letter-spacing: 1.5px;
+	
+}
+
+
+
+.register_opt
+{
+	
+	width:600px;
+	height:800px;
+	background:white;
+	margin: 0 auto;
+	padding:3%;
+	margin-top: 60px;
+}
+.lab_box p
+
+{	color:red;
+	font-weight:bold;
+	margin:15px 50px;
+	
+}
+.lab_box h3
+
+{	color:black;
+	font-weight:bold;
+	margin:15px 50px;
+	
+}
+
+.lab_box
+{	margin:0 auto;
+	width:500px;
+	height:800px;
+	border: 2px solid black;
+	
+}
+.lab_box input
+{
+	text-align:left;
+	margin:15px 50px;
+	width:400px;
+	height:40px;
+	border: 2px solid #006666;
+	padding: 5px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	font-size:1.1em;
+	
+	
+}
+.lab_box select
+{
+	text-align:center;
+	margin:6px 50px;
+	width:150px;
+	height:40px;
+	border: 2px solid #006666;
+	padding: 5px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	font-size:1.1em;
+	
+	
+}
+.sign_button
+{	margin:0 auto; 
+}
+.sign_button input
+{	
+	text-align:center;
+	margin:15px 50px;
+	width:200px;
+	height:40px;
+	border: 6px double #FFE4C4;
+	padding: 5px;
+	background-color:rgb(61, 50, 66);
+	border-radius:5px;
+	font-size:1.1em;
+	color:white;
+	
+}
+
+
+.sign_button input:hover{
+	color:rgb(61, 50, 66);
+	background-color:#FFE4C4;
+	border: 6px double rgb(61, 50, 66);
+}
+.sign_button input:active{
+	color:red;	
+	
+}
+.footer
+{
+	width:500px;
+	height:40px;
+	background:rgba(0,0,0,0.1);
+	margin:30px;
+	margin:0 auto;
+	padding:3%;
+	border:6px double #f2f2f2;
+	margin-top: inherit;
+	color:white;
+	font-weight:bold;
+	font-size:1.2em;
+	text-align:center;
+}
+
+
+
+

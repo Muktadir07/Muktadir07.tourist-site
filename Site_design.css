@@ -1,0 +1,524 @@
+body{
+  background: url(1F.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.top_page
+{
+	width:1200px;
+	height:200px;
+	background:white;
+	margin:0 auto;
+	padding:1%;
+}
+
+.site_name > h1
+{
+	float:left;
+	margin-top:100px;
+	margin-left:10px;
+	padding:10px 15px;
+	color:rgb(131, 127, 125);
+	font-family:Lily Script One;
+	font-weight:300;
+	
+	font-size: 70px;
+	line-height: 20px;
+}
+
+.register_to_login
+{
+	
+	float: right;
+	width: 247px;
+	max-width:247px;
+	background:rgb(61, 50, 66);
+	margin:15px 10px;
+	border:2px solid #FFE4C4;
+	border-radius:4px;
+	padding: 1px;
+	height: 40px;
+
+	
+}
+.register_to_login ul {
+    list-style-type: none;
+    margin:0 auto;
+	padding:0;
+    overflow: hidden;
+	color:black;
+    
+}
+.register_to_login li {
+    float: left;
+}
+.register_to_login li> a
+{
+	font-size:1.2em;
+	display: block;
+    text-align: center;
+    padding: 8px 30px;
+    text-decoration: none;
+	color:white;
+}
+
+.register_to_login li a:hover {
+    background-color: #FFE4C4;
+	text-decoration:none;
+	color: rgb(61, 50, 66);
+	border:1px solid rgb(61, 50, 66);
+}
+.top_navigation_bar
+{
+	float:right;
+	width:547px;
+	background:LightGrey;
+	margin:50px 15px 10px 70px;
+	
+	
+	
+	
+}
+.top_navigation_bar ul {
+    list-style-type: none;
+    margin:0 auto;
+    padding: 0;
+    overflow: hidden;
+	color:black;
+    
+}
+.top_navigation_bar li {
+    float: left;
+}
+
+.top_navigation_bar li> a
+{
+	font-size:1.2em;
+	display: block;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+	color:black;
+}
+.top_navigation_bar li a:hover {
+    background-color: silver;
+}
+.welcome_page
+{
+	width:40%;
+	height:100px;
+	background:white;
+	margin:0 auto;
+	padding:3%;
+	border:6px double black;
+	margin-top: inherit;
+}
+.welcome_page h2
+{
+	font-family:Great Vibes;
+	font-size:2.8em;
+	text-align:center;
+	margin-top: unset;
+	
+}
+.welcome_page p
+{
+	font-family:Bitter;
+	font-size:1.0em;
+	letter-spacing: 1.5px;
+	
+}
+.suggested_photos
+{
+	width:72%;
+	height:375px;
+	background:rgba(0,0,0,0.0);
+	margin:0 auto;
+	padding:20px 20px;
+	margin-top: inherit;
+}
+.thumbnails
+{
+	float:left;
+	display: inline-block;
+	height: auto;
+	width:27%;
+	max-width: 100%;
+	padding: 6px;
+	line-height: 1.428571429;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	background:rgb(255,255,245);
+	margin-left: 54px;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.thumbnails:hover{
+	box-shadow: 0 15px 20px 0 rgba(255,255,255,0.4);
+	
+}
+
+.caption
+{
+	height :auto;
+	display:inline-block;
+	margin-top: inherit;
+}
+.caption h3
+{
+	margin-left:3px;
+	font-family: Bitter;
+	color:#2F4F4F;
+	letter-spacing: 1px;
+}
+.caption h3:hover{
+	font-size:1.5em;
+	text-decoration:underline;
+}
+.caption p{
+	margin-left:3px;
+	font-family: Bitter;
+	color:#2F4F4F;
+	letter-spacing: 1px;
+}
+.guide_page
+{
+	width:30%;
+	height:60px;
+	background:white;
+	margin:0 auto;
+	padding:2%;
+	margin-top: inherit;
+}
+.guide_page h2
+{
+	font-family:Bitter;
+	font-size:3.0em;
+	text-align:center;
+	margin-top: unset;
+	letter-spacing: 1px;
+	text-decoration:underline;
+}
+.Footer
+{
+	width:60%;
+	height:40px;
+	background:rgba(0,0,0,0.1);
+	margin:0 auto;
+	padding:3%;
+	border:6px double #f2f2f2;
+	margin-top: inherit;
+	color:white;
+	font-weight:bold;
+	font-size:1.2em;
+	text-align:center;
+}
+.login_options
+{
+	width:50%;
+	height:700px;
+	background:white;
+	margin:0 auto;
+	padding:3%;
+	margin-top: inherit;
+}
+
+.label_box
+{	
+	margin:0 auto;
+	width:500px;
+	height:400px;
+	padding:3%;
+	border: 2px solid black;
+	
+}
+.label_box input
+{
+	text-align:left;
+	margin:15px 50px;
+	width:400px;
+	height:40px;
+	border: 2px solid #006666;
+	padding: 5px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	font-size:1.1em;
+	
+	
+}
+.label_box p
+
+{	text-align:center;
+	color:red;
+	font-weight:bold;
+	margin:15px 0px;
+	
+}
+
+.register_options
+{
+	width:700px;
+	height:800px;
+	background:white;
+	margin:50px 240px;
+	padding:3%;
+	margin-top: inherit;
+}
+.label2_box p
+
+{	color:red;
+	font-weight:bold;
+	margin:15px 50px;
+	
+}
+.label2_box h3
+
+{	color:black;
+	font-weight:bold;
+	margin:15px 50px;
+	
+}
+
+.label2_box
+{	margin:0 auto;
+	width:500px;
+	height:700px;
+	border: 2px solid black;
+	
+}
+.label2_box input
+{
+	text-align:left;
+	margin:15px 50px;
+	width:400px;
+	height:40px;
+	border: 2px solid #006666;
+	padding: 5px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	font-size:1.1em;
+	
+	
+}
+.label2_box select
+{
+	text-align:center;
+	margin:6px 50px;
+	width:150px;
+	height:40px;
+	border: 2px solid #006666;
+	padding: 5px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	font-size:1.1em;
+	
+	
+}
+
+.remember_opt
+{
+	float:left;
+	width:150px;
+	height:30px;
+	margin:0px 55px;
+	padding:2px;
+}
+.remember_opt input
+{
+	
+	width:20px;
+	height:30px;
+	margin:0 auto;
+	
+}
+.remember_opt p
+{
+	display:inline-block;
+	float: right;
+	margin:-28px 23px;
+	
+}
+.sign_in_button
+{	margin:0 auto; 
+}
+.sign_in_button input
+{	
+	text-align:center;
+	margin:15px 50px;
+	width:200px;
+	height:40px;
+	border: 6px double #FFE4C4;
+	padding: 5px;
+	background-color:rgb(61, 50, 66);
+	border-radius:5px;
+	font-size:1.1em;
+	color:white;
+	
+}
+
+
+.sign_in_button input:hover{
+	color:rgb(61, 50, 66);
+	background-color:#FFE4C4;
+	border: 6px double rgb(61, 50, 66);
+}
+.sign_in_button input:active{
+	color:red;	
+	
+}
+.user_options
+{
+	width:50%;
+	height:700px;
+	background:white;
+	
+	margin:0 auto;
+	padding:3%;
+	margin-top: inherit;
+}
+.menubar
+{
+	margin:0 auto;
+	margin-top:20px;
+	text-align:center;
+	width:240px;
+	height:40px;
+	border: 6px double #FFE4C4;
+	padding: 5px;
+	background-color:rgb(61, 50, 66);
+	border-radius:10px;
+}
+.menubar a
+{
+	color:white;
+	font-size:2.0em;
+	text-align:center;
+	text-decoration:none;
+}
+.table_options
+{
+	width:50%;
+	height:800px;
+	min-height:700px;
+	background:rgba(0,0,0,0.0);
+	margin:0 auto;
+	padding:3%;
+	margin-top: inherit;
+}
+.table_options table
+{	margin:0 auto;
+	background:white;
+	width:700px;
+	height:200px;
+	border:15px double black;
+}
+.table_options tr 
+{	margin:0 auto;
+	text-align:center;
+	font-size:1.3em;
+}
+.table_options td 
+{	margin:0 auto;
+	text-align:center;
+}
+.register_opt
+{
+	float:left;
+	width:600px;
+	
+	height:800px;
+	background:white;
+	margin: 0px 50px;
+	padding:3%;
+	margin-top: 60px;
+}
+.lab_box p
+
+{	color:red;
+	font-weight:bold;
+	margin:15px 50px;
+	
+}
+.lab_box h3
+
+{	color:black;
+	font-weight:bold;
+	margin:15px 50px;
+	
+}
+
+.lab_box
+{	margin:0 auto;
+	width:500px;
+	height:800px;
+	border: 2px solid black;
+	
+}
+.lab_box input
+{
+	text-align:left;
+	margin:15px 50px;
+	width:400px;
+	height:40px;
+	border: 2px solid #006666;
+	padding: 5px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	font-size:1.1em;
+	
+	
+}
+.lab_box select
+{
+	text-align:center;
+	margin:6px 50px;
+	width:150px;
+	height:40px;
+	border: 2px solid #006666;
+	padding: 5px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	font-size:1.1em;
+	
+	
+}
+.sign_button
+{	margin:0 auto; 
+}
+.sign_button input
+{	
+	text-align:center;
+	margin:15px 50px;
+	width:200px;
+	height:40px;
+	border: 6px double #FFE4C4;
+	padding: 5px;
+	background-color:rgb(61, 50, 66);
+	border-radius:5px;
+	font-size:1.1em;
+	color:white;
+	
+}
+
+
+.sign_button input:hover{
+	color:rgb(61, 50, 66);
+	background-color:#FFE4C4;
+	border: 6px double rgb(61, 50, 66);
+}
+.sign_button input:active{
+	color:red;	
+	
+}
+
+
+
+
